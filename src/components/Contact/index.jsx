@@ -1,4 +1,5 @@
 import './style.css'
+import map from './img/map.png'
 
 export const Contact = ()=>{
     return(
@@ -21,7 +22,7 @@ export const Contact = ()=>{
                     </table>
                     <img
                     className="contact__map"
-                    src="img/map.png"
+                    src={map}
                     />
                 </div>
             </div>
